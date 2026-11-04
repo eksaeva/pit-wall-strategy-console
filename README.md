@@ -28,3 +28,29 @@ The intended directory structure is:
 ## Project Status
 
 **Planning / initial repository setup.** There is **no application code yet**. This README defines the intended product, audience, and scope. The functionality described here is a goal, not an implemented feature.
+
+## Delegation and human-owned controls
+
+### Setup activities I may delegate
+
+I may delegate routine setup work to Claude Code, including creating
+project folders and starter files, preparing configuration and
+documentation changes, and running tests, formatting, and setup checks.
+Claude Code may prepare these changes for human review.
+
+### Controls that remain human-owned
+
+Only a human may:
+- Create, change, or disable the ruleset protecting `main`.
+- Decide who can bypass repository rules or change bypass permissions.
+- Change pull-request approval requirements or decide who may approve.
+- Provide the required human approval and authorize merging into `main`.
+
+Claude Code must not weaken or bypass these controls to complete a task.
+
+### My responsibility
+
+I remain responsible for delegated work. Before accepting changes, I will
+review the changed files, check the test and setup results, and confirm
+that the work matches the intended task. Changes must follow the normal
+pull-request process and the protections configured for `main`.
