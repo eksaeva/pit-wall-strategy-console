@@ -15,7 +15,7 @@ This project has four explicit boundaries:
 - **One car only:** The console focuses on a single Apex Velocity Racing car, not the full racing field or a multi-car team view.
 - **Synthetic data only:** All example inputs are fabricated for development, demonstration, or testing. No real race data is required.
 - **No live telemetry:** The console will not connect to live car sensors, timing feeds, or other real-time telemetry services.
-- **No race simulation:** The project will not run a race simulation or model lap-by-lap race outcomes.
+- **No race simulation:** The project will not run a race simulation or model lap-by-lap race outcomes. This is a small change
 
 ## Repository Layout
 
